@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ippo Fitness</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+<style>
+    /* CSS Reset */
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        color: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
+        /* height: 1033px; */
+        background: url(Gym/anastase-maragos-4dlhin0ghOk-unsplash.jpg);
+        background-size: 1550px;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        /* border: 2px solid rgb(255, 0, 0); */
+        display: inline-block;
+        position: absolute;
+        /* position: fixed; */
+        top: -48px;
+        left: 0px;
+    }
+
+    .left img {
+        width: 150px;
+        display: inline-block
+    }
+
+    .left div {
+        color: black;
+        display: inline;
+        position: absolute;
+        font-family: "Fjalla One", sans-serif;
+        text-align: center;
+        top: 58px;
+        left: 111px;
+    }
+
+    .centre {
+        /* border: 2px solid rgb(166, 255, 0); */
+        width: 350px;
+        margin: auto;
+        /* margin-top: 10px; */
+        /* position: fixed; */
+
+    }
+
+    .right {
+        /* border: 2px solid rgb(53, 2, 255); */
+        display: inline-block;
+        position: absolute;
+        /* position: fixed; */
+
+        top: 18px;
+        right: 18px;
+    }
+
+    header {
+        border: 1px solid rgb(62, 62, 62);
+        /* border-bottom-left-radius: 05px;
+        border-bottom-right-radius: 05px; */
+        background-color: rgb(54, 50, 50);
+        /* padding-bottom: 20px; */
+    }
+
+    .centre {
+        color: wheat;
+    }
+
+    .centre li {
+        display: inline-block;
+        padding-right: 10.5px;
+        padding-left: 10.5px;
+        font-size: 18px;
+    }
+
+    .centre li a {
+        text-decoration: none;
+        list-style-type: none;
+        color: rgb(216, 216, 242);
+    }
+
+    .centre li a:hover,
+    .centre li a.active {
+        text-decoration: underline;
+        color: rgb(202, 199, 199);
+    }
+
+    .centre ul {
+        padding: 0%;
+    }
+
+    .btn {
+        /* width: 74px; */
+        margin: 0px 9px;
+        padding: 0px 9px;
+        border: 2px solid rgb(139, 139, 139);
+        border-radius: 7px;
+        background-color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+
+    .right a {
+        color: rgb(74, 72, 72);
+        text-decoration: none;
+    }
+
+    .right .btn :hover {
+        color: rgb(118, 118, 117);
+        /* background-color: rgb(183, 183, 183); */
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .container {
+        padding: 20px;
+        /* margin-top: 60px; */
+        width: 35%;
+        border: 2px solid rgb(182, 180, 180);
+        border-radius: 30px;
+        background-color: rgb(51, 45, 45);
+        position: absolute;
+        top: 154px;
+        left: 66px;
+    }
+    .container h1{
+        text-align: center;
+        margin: 12px;
+    }
+    /* .formgroup{
+        margin: ;
+    } */
+    .formgroup input{
+        /* margin: auto; */
+        font-size: 16px;
+        text-align: center;
+        width: 320px;
+        height: 25px;
+        border: 2px solid black;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 6px auto;
+        display: block;
+    }
+    .container .btn{
+        display: block;
+        border: 2px solid black ;
+        width: 64.4%;
+        margin: 8px auto;
+    }
+    .container .btn:hover{
+        cursor: pointer;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Gym/—Pngtree—fitness logo template badge shield_5276062.png" alt="">
+            <div>Ippo Fitness</div>
+        </div>
+        <div class="centre">
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Fit Plans</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"><a href="">Donate us</a></button>
+            <button class="btn"><a href="">Feedback</a></button>
+        </div>
+    </header>
+    <div class="container">
+
+        <h1>Join Ippo Fitness Now!!</h1>
+        <form action="noaction.php"></form>
+        <div class="formgroup" id="">
+            <input type="text" placeholder="Enter your Name">
+        </div>
+        <div class="formgroup" id="">
+            <input type="text" placeholder="Enter your Contact No.">
+        </div>
+        <div class="formgroup" id="">
+            <input type="text" placeholder="Enter your address">
+        </div>
+        <div class="formgroup" id="">
+            <input type="text" placeholder="Enter yout email">
+        </div>
+        <!-- <div class="form" id="SubmitNow">
+            <input type="submit" value="Submit Now">
+        </div> -->
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
